@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "kingluddite",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  }
 }
