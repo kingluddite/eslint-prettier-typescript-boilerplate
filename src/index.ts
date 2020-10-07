@@ -48,7 +48,7 @@ console.log(combined)
 
 const planet = 'earth'
 const view = 'glass'
-var before =
+const before =
   'Lorem ' +
   view +
   'dolor sit amet, ' +
