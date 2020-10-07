@@ -1,2 +1,1 @@
 # ESLint, Prettier, TypeScript Boilerplate
-
