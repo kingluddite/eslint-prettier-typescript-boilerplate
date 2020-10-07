@@ -7,9 +7,7 @@
     }
   },
   "extends": ["eslint:recommended", "eslint-config-prettier"],
-  "rules": {
-    "strict": ["error", "never"]
-  },
+  "rules": {},
   "env": {
     "browser": true
   },
