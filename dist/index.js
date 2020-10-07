@@ -2,17 +2,22 @@
 
 console.log('test');
 
-var golden = function goldenFunction() {
+const golden = function goldenFunction() {
   console.log('this is golden!!');
 };
 
+function add(a, b) {
+  return a + b;
+}
+
+add(1, 'two');
 golden();
 
-var newFunction = function literal(firstName, lastName) {
+const newFunction = function literal(firstName, lastName) {
   return {
     firstName: firstName,
     lastName: lastName,
-    fullName: function fullName() {
+    fullName: function () {
       alert(firstName + ' ' + lastName);
       return;
     }
@@ -20,23 +25,23 @@ var newFunction = function literal(firstName, lastName) {
 };
 
 newFunction('William', 'Imoh').fullName();
-var newObject = {
+const newObject = {
   firstName: 'Harry',
   lastName: 'Potter Holt',
   destination: 'Hogwarts React Conf',
   occupation: 'Deve-wizard Avocado',
   spell: 'Vimulus Renderus!!!'
 };
-var firstName = newObject.firstName;
-var lastName = newObject.lastName;
-var destination = newObject.destination;
-var occupation = newObject.occupation;
+const firstName = newObject.firstName;
+const lastName = newObject.lastName;
+const destination = newObject.destination;
+const occupation = newObject.occupation;
 console.log(firstName, lastName, destination, occupation);
-var west = ['Will', 'Chris', 'Sam', 'Holly'];
-var east = ['Gill', 'Brian', 'Noel', 'Maggie'];
-var combined = west.concat(east);
+const west = ['Will', 'Chris', 'Sam', 'Holly'];
+const east = ['Gill', 'Brian', 'Noel', 'Maggie'];
+const combined = west.concat(east);
 console.log(combined);
-var planet = 'earth';
-var view = 'glass';
+const planet = 'earth';
+const view = 'glass';
 var before = 'Lorem ' + view + 'dolor sit amet, ' + 'consectetur adipiscing elit,' + planet + 'do eiusmod tempor ' + 'incididunt ut labore et dolore magna aliqua. Ut enim' + ' ad minim veniam';
 console.log(before);

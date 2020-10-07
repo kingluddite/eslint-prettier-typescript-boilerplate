@@ -3,6 +3,12 @@ const golden = function goldenFunction() {
   console.log('this is golden!!')
 }
 
+function add(a, b) {
+  return a + b
+}
+
+add(1, 'two')
+
 golden()
 
 const newFunction = function literal(firstName, lastName) {
